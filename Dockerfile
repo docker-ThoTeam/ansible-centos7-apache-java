@@ -3,7 +3,7 @@ FROM centos:7
 RUN yum makecache fast && \
     yum update -y && \
     yum install -y \
-        java-1.8.0-openjdk \
+        java-1.8.0-openjdk-headless \
         httpd \
         python \
         sudo \
