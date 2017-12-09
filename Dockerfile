@@ -5,6 +5,7 @@ RUN yum makecache fast && \
     yum install -y \
         java-1.8.0-openjdk-headless \
         httpd \
+        mod_ssl \
         python \
         sudo \
         yum-plugin-ovl \
