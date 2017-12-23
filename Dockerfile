@@ -1,4 +1,4 @@
-FROM centos/systemd
+FROM centos/systemd:latest
 
 RUN yum makecache fast && \
     yum update -y && \
