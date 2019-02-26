@@ -16,3 +16,4 @@ RUN yum makecache fast && \
         which && \
     sed -i 's/plugins=0/plugins=1/g' /etc/yum.conf && \
     yum clean all;
+CMD ["/usr/sbin/init"]
